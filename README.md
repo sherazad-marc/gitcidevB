@@ -21,6 +21,8 @@ Ce projet permet de créer une liste de tâches, de marquer celles qui sont term
 - https://github.com/sherazad-marc/gitcidevB/pull/5
 - https://github.com/sherazad-marc/gitcidevB/pull/6
 - https://github.com/sherazad-marc/gitcidevB/pull/7
+- https://github.com/sherazad-marc/gitcidevB/pull/8
+- https://github.com/sherazad-marc/gitcidevB/pull/9
 
 ## Commandes utilisées
 
