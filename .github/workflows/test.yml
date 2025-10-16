@@ -1,10 +1,11 @@
 name: Jest Tests
 
 on:
+  # Pour main
   push:
     branches: ["main"]
+  # Et pour les pull request
   pull_request:
-    branches: ["main"]
   workflow_dispatch:
 
 jobs:
