@@ -1,16 +1,24 @@
-## EVALUATION.md
+# Évaluation
 
+## Méthode de résolution
 
-méthode de résolution : 
+Lors du développement de la fonctionnalité `toggleTask`, un conflit est survenu entre les branches :
 
-Lors du développement de notre fonctionnalité toggleTask, un conflit est survenu entre les branches ‘feature/toggle-task’ et ‘feature/toggle-task-marc’, lors de la fusion vers ‘dev’. La branche ‘feature/toggle-task-marc’ a été merge en premier sans aucun problème.
-Lorsque nous avons voulu merger la branche ‘feature/toggle-task’, Git nous a signalé un conflit car le même fichier avait été modifié sur les deux branches.
-La fusion n'était pas automatique sur l’interface Github, il a donc fallu choisir quelle version choisir et supprimer la version disposable. 
-Nous avons décidé de conserver la version de la branche ‘feature/toggle-task’.
-Le conflit a été résolu manuellement, par la suite la fusion a été effectuée avec succès vers ‘vers’.
+- `feature/toggle-task`
+- `feature/toggle-task-marc`
 
-lien PR : https://github.com/sherazad-marc/gitcidevB/pull/7
-lien Actions : https://github.com/sherazad-marc/gitcidevB/actions/runs/18554817255
+lors de la fusion vers `dev`.
 
+### Étapes suivies
 
+1. La branche `feature/toggle-task-marc` a été mergée en premier, sans problème.
+2. Lors de la tentative de merge de la branche `feature/toggle-task`, Git a signalé un **conflit** sur un fichier modifié dans les deux branches.
+3. La fusion automatique via l’interface GitHub n’était pas possible.
+4. Nous avons dû **choisir manuellement** quelle version conserver et supprimer la version indésirable.
+5. La décision a été de **conserver la version de la branche `feature/toggle-task`**.
+6. Après résolution manuelle du conflit, la fusion vers `dev` a été effectuée avec succès.
 
+### Références
+
+- **Pull Request :** [Lien PR](https://github.com/sherazad-marc/gitcidevB/pull/7)
+- **Actions GitHub :** [Lien Actions](https://github.com/sherazad-marc/gitcidevB/actions/runs/18554817255)
